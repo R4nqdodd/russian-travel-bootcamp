@@ -1,0 +1,5 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(min-content, max-content)) auto;
+  grid-row: min-content;
+}

@@ -1,0 +1,6 @@
+.cover__link {
+  display: block;
+  position: absolute;
+  width: 1184px;
+  z-index: 10;
+}
