@@ -3,11 +3,8 @@
   background-size: cover;
   background-position: left;
   min-width: 720px;
+  max-height: 740px;
   width: 100%;
-  height: 720px;
+  height: 100%;
   z-index: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }

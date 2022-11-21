@@ -2,6 +2,7 @@
   text-decoration: none;
   color: white;
   transition: opacity .1s linear;
+  cursor:  url("../../images/Pointer.svg"), default;
 }
 
 .link-style:hover {

@@ -1,7 +1,7 @@
 .intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 92px 148px 92px 148px;
-  width: 690px;
+  display: grid;
+  grid-template-columns: 690px auto;
+  grid-template-rows: repeat(3,min-content);
+  margin: 92px auto 92px auto;
+  width: 76.875%;
 }

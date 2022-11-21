@@ -3,4 +3,6 @@
   font-size: 18px;
   line-height: 29px;
   font-weight: 400;
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
