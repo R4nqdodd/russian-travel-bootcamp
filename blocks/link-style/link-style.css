@@ -1,4 +1,9 @@
 .link-style {
   text-decoration: none;
   color: white;
+  transition: opacity .1s linear;
+}
+
+.link-style:hover {
+  opacity: .8;
 }
