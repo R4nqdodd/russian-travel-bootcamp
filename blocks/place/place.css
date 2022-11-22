@@ -5,3 +5,16 @@
   margin-bottom: 80px;
   column-gap: 40px;
 }
+
+@media screen and (max-width:580px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,min-content);
+  }
+}
+
+@media screen and (max-width:320px) {
+  .place {
+    row-gap: 32px;
+  }
+}

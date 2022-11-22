@@ -2,6 +2,21 @@
   display: grid;
   grid-template-columns: repeat(5, minmax(min-content, max-content)) auto;
   grid-row: min-content;
-  width: 92.5%;
-  margin: auto;
+  max-width: 1184px;
+  margin: 0 48px 24px;
+}
+
+@media screen and (max-width:768px) {
+  .footer {
+    margin: 0 24px 24px;
+  }
+}
+
+@media screen and (max-width:756px) {
+  .footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,min-content);
+    gap: 32px;
+    margin: 0 16px 24px;
+  }
 }
