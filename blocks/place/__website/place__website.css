@@ -9,11 +9,6 @@
   .place__website {
     grid-column: 1/2;
     grid-row: 2/3;
-  }
-}
-
-@media screen and (max-width:320px) {
-  .place__website {
     margin: 0 16px 0;
   }
 }
