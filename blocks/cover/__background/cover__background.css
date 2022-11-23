@@ -1,9 +1,0 @@
-.cover__background {
-  background-image: url("../../../images/cover__background.jpg");
-  background-size: cover;
-  background-position: center;
-  min-width: 720px;
-  max-height: 740px;
-  max-width: 1184px;
-  z-index: 0;
-}

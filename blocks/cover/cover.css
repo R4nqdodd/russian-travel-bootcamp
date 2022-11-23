@@ -1,13 +1,26 @@
 .cover {
   margin: 0 48px 92px;
   max-width: 1184px;
-  z-index: -1;
   background-image: url("../../images/cover__background.jpg");
   background-size: cover;
+  position: relative;
+  z-index: 0;
 }
 
 @media screen and (max-width:1024px) {
   .cover {
     margin: 0 0 92px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .cover {
+    margin: 0 0 88px;
+  }
+}
+
+@media screen and (max-width:756px) {
+  .cover {
+    margin: 0 0 64px;
   }
 }
