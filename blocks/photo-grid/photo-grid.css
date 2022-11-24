@@ -1,18 +1,6 @@
 .photo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  grid-template-rows: repeat(3, 1fr);
-  gap: 16px;
   max-width: 1184px;
   margin: 0 48px;
-  list-style: none;
-  padding-left: 0;
-}
-
-@media screen and (max-width:1024px) and (min-width:768px) {
-  .photo-grid {
-    gap: 14px;
-  }
 }
 
 @media screen and (max-width:768px) {
@@ -24,6 +12,5 @@
 @media screen and (max-width:320px) {
   .photo-grid {
     margin: 0 16px;
-    gap: 12px;
   }
 }

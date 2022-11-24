@@ -1,6 +1,5 @@
 .cover__text {
   z-index: 2;
-  display: block;
   width: 100%;
   padding-top: calc((62.5% - 250px)/2);
   padding-bottom: calc((62.5% - 250px)/2);
