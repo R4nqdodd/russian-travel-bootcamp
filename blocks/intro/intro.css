@@ -17,3 +17,9 @@
     margin: 88px 24px;
   }
 }
+
+@media screen and (max-width:320px) {
+  .intro {
+    margin: 64px 16px;
+  }
+}

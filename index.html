@@ -11,7 +11,7 @@
 <body class="root">
   <header class="header">
     <img class="header__logo" src="images/header__logo.svg" alt="Логотип Россия">
-    <a class="link-style header__lang-link" href="#">Ru</a>
+    <a class="link-style header__lang-link header__lang-link_underline_true" href="#">Ru</a>
     <a class="link-style header__lang-link" href="#">En</a>
   </header>
 
@@ -19,8 +19,10 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="lead__image" src="images/lead__image.png" alt="Путь от Пскова до Улан-Удэ">
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <figure class="lead__image-caption">
+        <img class="lead__image" src="images/lead__image.png" alt="Путь от Пскова до Улан-Удэ">
+        <figcaption class="lead__caption">ваша полка — верхняя</p>
+      </figure>
     </section>
 
     <section class="intro">
@@ -40,24 +42,48 @@
       </ul>
     </section>
 
-    <section class="photo-grid">
-      <img class="photo-grid__item" src="images/photo-grid__item_1.jpg " alt="Вид из окна поезда">
-      <img class="photo-grid__item" src="images/photo-grid__item_2.jpg" alt="Высокие горы в облаках">
-      <img class="photo-grid__item" src="images/photo-grid__item_3.jpg" alt="Волк стоит на стоге сена">
-      <img class="photo-grid__item" src="images/photo-grid__item_4.jpg" alt="Горный лес в тумане">
-      <img class="photo-grid__item" src="images/photo-grid__item_5.jpg" alt="Машина стоит на треснувшем льде">
-      <img class="photo-grid__item" src="images/photo-grid__item_6.jpg" alt="Берег на фоне горного хребта">
-      <img class="photo-grid__item" src="images/photo-grid__item_7.jpg" alt="Высокие снежные горы в пасмурную погоду">
-      <img class="photo-grid__item" src="images/photo-grid__item_8.jpg"
-        alt="Знак пешеходного перехода на фоне асфальтных шайб">
-      <img class="photo-grid__item" src="images/photo-grid__item_9.jpg" alt="Вид сверху на горы под облаками">
-      <img class="photo-grid__item" src="images/photo-grid__item_10.jpg" alt="лес на фоне снежной горы">
-      <img class="photo-grid__item" src="images/photo-grid__item_11.jpg" alt="Скальная возвышенность на берегу">
-      <img class="photo-grid__item" src="images/photo-grid__item_12.jpg" alt="Горы в облаках">
-    </section>
+    <ul class="photo-grid">
+      <li>
+        <img class="photo-grid__item" src="images/photo-grid__item_1.jpg " alt="Вид из окна поезда">
+      </li>
+      <li>
+        <img class="photo-grid__item" src="images/photo-grid__item_2.jpg" alt="Высокие горы в облаках">
+      </li>
+      <li>
+        <img class="photo-grid__item" src="images/photo-grid__item_3.jpg" alt="Волк стоит на стоге сена">
+      </li>
+      <li>
+        <img class="photo-grid__item" src="images/photo-grid__item_4.jpg" alt="Горный лес в тумане">
+      </li>
+      <li>
+        <img class="photo-grid__item" src="images/photo-grid__item_5.jpg" alt="Машина стоит на треснувшем льде">
+      </li>
+      <li>
+        <img class="photo-grid__item" src="images/photo-grid__item_6.jpg" alt="Берег на фоне горного хребта">
+      </li>
+      <li>
+        <img class="photo-grid__item" src="images/photo-grid__item_7.jpg" alt="Высокие снежные горы в пасмурную погоду">
+      </li>
+      <li>
+        <img class="photo-grid__item" src="images/photo-grid__item_8.jpg"
+          alt="Знак пешеходного перехода на фоне асфальтных шайб">
+      </li>
+      <li>
+        <img class="photo-grid__item" src="images/photo-grid__item_9.jpg" alt="Вид сверху на горы под облаками">
+      </li>
+      <li>
+        <img class="photo-grid__item" src="images/photo-grid__item_10.jpg" alt="лес на фоне снежной горы">
+      </li>
+      <li>
+        <img class="photo-grid__item" src="images/photo-grid__item_11.jpg" alt="Скальная возвышенность на берегу">
+      </li>
+      <li>
+        <img class="photo-grid__item" src="images/photo-grid__item_12.jpg" alt="Горы в облаках">
+      </li>
+    </ul>
 
     <section class="places">
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Куршская коса</h2>
         <img class="place__image" src="images/curonian_spit.jpg" alt="Куршская коса">
         <div class="place__website">
@@ -74,9 +100,9 @@
             и
             запах стального, прохладного моря.</p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Кольский</h2>
         <img class="place__image" src="images/kola.jpg" alt="Кольский">
         <div class="place__website">
@@ -95,9 +121,9 @@
             накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
             в Мурманск.</p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Алтай</h2>
         <img class="place__image" src="images/altai.jpg" alt="Алтай">
         <div class="place__website">
@@ -115,9 +141,9 @@
             равнинах
             пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Зимний Байкал</h2>
         <img class="place__image" src="images/winter_baikal.jpg" alt="Зимний Байкал">
         <div class="place__website">
@@ -135,9 +161,9 @@
             к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале
             «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <h2 class="place__title">Карелия</h2>
         <img class="place__image" src="images/karelia.jpg" alt="Карелия">
         <div class="place__website">
@@ -152,7 +178,7 @@
             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         </div>
-      </div>
+      </article>
     </section>
 
     <section class="cover">
